@@ -9,7 +9,7 @@ pipeline {
     stage('Upload to AWS') {
       steps {
         withAWS(region:'us-west-1', credentials: 'aws-static') {
-          s3Upload(file:'index.html', bucket:'jenkinsudacity', path:'https://jenkinsudacity.s3.amazonaws.com/index.html')
+          s3Upload(file:'index.html', bucket:'jenkinsudacity', path:'')
         }
       }
     }
