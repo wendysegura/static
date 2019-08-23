@@ -1,17 +1,17 @@
 ## Jenkins Pipelines on AWS Project Overview
 Create and run an instance on AWS, configure Jenkins, and create a pipeline to deploy a static website on S3.
 
-### Have a group on AWS with the following Policies:
+### Create a group on AWS with the following Policies:
 * AmazonEC2FullAccess
 * AmazonVPCFullAccess
 * AmazonS3FullAccess
 
-### Create a new User name jenkins on AWS
+### Create a new User named jenkins on AWS
 * create new key pair for the user
 * launch an EC2 Ubuntu server,  install Jenkins
 
 ### Ensure that Jenkins is running
-* sudo systemctl status jenkins
+* `sudo systemctl status jenkins`
 
 ### Set up Jenkins
 * http://your_server_ip:8080
