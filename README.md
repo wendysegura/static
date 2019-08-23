@@ -1,5 +1,6 @@
 ## Jenkins Pipelines on AWS Project Overview
 Create and run an instance on AWS, configure Jenkins, and create a pipeline to deploy a static website on S3.
+<img src="static/img/pipelineimg.png"/>
 
 ### Create a group on AWS with the following Policies:
 * AmazonEC2FullAccess
